@@ -1,0 +1,6 @@
+framework module LBCircularPulsesView {
+  umbrella header "LBCircularPulsesView-umbrella.h"
+
+  export *
+  module * { export * }
+}

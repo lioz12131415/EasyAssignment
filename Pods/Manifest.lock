@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LBCircularPulsesView (0.0.1)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - AFNetworking
+  - LBCircularPulsesView (from `Frameworks/LBCircularPulsesView`)
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  LBCircularPulsesView:
+    :path: Frameworks/LBCircularPulsesView
+
+SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  LBCircularPulsesView: f145e648cc592fd301dfc640a52bc207eec32fff
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: f90ee075fa845655cc2a60f866539478eb4c6928
+
+COCOAPODS: 1.15.2

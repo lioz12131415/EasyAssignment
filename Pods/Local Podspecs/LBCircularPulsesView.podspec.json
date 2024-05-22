@@ -1,0 +1,35 @@
+{
+  "name": "LBCircularPulsesView",
+  "version": "0.0.1",
+  "summary": "LBCircularPulsesView framework summary",
+  "description": "LBCircularPulsesView framework description",
+  "homepage": "https://github.com/lioz12131415",
+  "license": "MIT",
+  "authors": {
+    "Lioz": "lioz12131415@gmail.com"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "1.0.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "libraries": "z",
+  "resource_bundles": {
+    "CircularPulsesView": [
+      "LBCircularPulsesView/**/*.{xcassets,xcdatamodeld,ttf}"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "LD_RUNPATH_SEARCH_PATHS": "$(FRAMEWORK_SEARCH_PATHS)"
+  },
+  "resources": "LBCircularPulsesView/**/*.{h,m,folder,xcassets,mp4,ttf}",
+  "source_files": [
+    "LBCircularPulsesView",
+    "LBCircularPulsesView/**/*.{h,m,swift,folder,storyboard,strings,xcdatamodeld,xib,ttf}"
+  ],
+  "swift_version": "5.0"
+}

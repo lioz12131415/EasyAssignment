@@ -1,0 +1,6 @@
+framework module Pods_EasyAssignment {
+  umbrella header "Pods-EasyAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

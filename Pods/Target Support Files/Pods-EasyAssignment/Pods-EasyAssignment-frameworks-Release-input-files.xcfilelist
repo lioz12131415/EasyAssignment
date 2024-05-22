@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-EasyAssignment/Pods-EasyAssignment-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/LBCircularPulsesView/LBCircularPulsesView.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
