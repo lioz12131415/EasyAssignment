@@ -43,7 +43,7 @@
 		BEF271F22BFE67DB00805034 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF271F12BFE67DB00805034 /* UIImageView.swift */; };
 		BEF271F52BFE684700805034 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF271F42BFE684700805034 /* UICollectionView.swift */; };
 		BEF271F82BFE6B2C00805034 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF271F72BFE6B2C00805034 /* Double.swift */; };
-		BEF271FF2C047BCD00805034 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF271FD2C047BCD00805034 /* CoreData.xcdatamodeld */; };
+		BEF2723B2C0481DF00805034 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF272392C0481DF00805034 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,7 +87,7 @@
 		BEF271F12BFE67DB00805034 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		BEF271F42BFE684700805034 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		BEF271F72BFE6B2C00805034 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
-		BEF271FE2C047BCD00805034 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		BEF2723A2C0481DF00805034 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,7 +259,7 @@
 				BE6F42922BFE52710014F1AA /* Movie */,
 				BE6F429F2BFE53210014F1AA /* Maneger */,
 				BE6F429C2BFE53010014F1AA /* Protocols */,
-				BEF271FD2C047BCD00805034 /* CoreData.xcdatamodeld */,
+				BEF272392C0481DF00805034 /* CoreData.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -603,7 +603,7 @@
 				BE6F42802BFE4C650014F1AA /* KeyPath.swift in Sources */,
 				BE6F42A42BFE563F0014F1AA /* NetworkRequests.swift in Sources */,
 				BE6F42722BFE4BEC0014F1AA /* IBDesignableView.swift in Sources */,
-				BEF271FF2C047BCD00805034 /* CoreData.xcdatamodeld in Sources */,
+				BEF2723B2C0481DF00805034 /* CoreData.xcdatamodeld in Sources */,
 				BE6F42992BFE52B40014F1AA /* Movie+Extensions.swift in Sources */,
 				BE6F428E2BFE51A00014F1AA /* Network.swift in Sources */,
 				BE6F421D2BFE46550014F1AA /* AppDelegate.swift in Sources */,
@@ -837,14 +837,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BEF271FD2C047BCD00805034 /* CoreData.xcdatamodeld */ = {
+		BEF272392C0481DF00805034 /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BEF271FE2C047BCD00805034 /* CoreData.xcdatamodel */,
+				BEF2723A2C0481DF00805034 /* CoreData.xcdatamodel */,
 			);
-			currentVersion = BEF271FE2C047BCD00805034 /* CoreData.xcdatamodel */;
-			name = CoreData.xcdatamodeld;
-			path = "/Users/lioz/Desktop/EasyAssignment done/EasyAssignment/Core/CoreData/CoreData.xcdatamodeld";
+			currentVersion = BEF2723A2C0481DF00805034 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
